@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <img src="./../../assets/logo.png">
+    <img src="@/assets/logo.png">
     <other/>
   </div>
 </template>
 
 <script>
-import other from './../../components/other'
+import other from '@/components/other'
 
 export default {
   name: 'App',
